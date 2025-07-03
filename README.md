@@ -19,10 +19,11 @@ A simple Node.js RESTful API for managing a bookstore with secure user
 
 ### 1. Clone and install dependencies
 ```bash
-git clone https://github.com/yourusername/bookstore-api.git
+git clone [https://github.com/Malay207/bookstore-api.git](https://github.com/Malay207/Bookstroe-api.git)
 cd bookstore-api
 npm install
 
+```bash
 ##Create a .env file
 
 PORT=5000
@@ -31,6 +32,7 @@ JWT_SECRET=your_jwt_secret
 ##start the server
 npm start
 
+```bash
 ###How to test end points
  1.Register a User
 
@@ -90,6 +92,8 @@ Authorization: Bearer <your_token>
 
 DELETE /api/books/:id
 Authorization: Bearer <your_token>
+
+```bash
 
 ### Api Documnetation 
 
