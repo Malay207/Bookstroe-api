@@ -23,7 +23,7 @@ git clone [https://github.com/Malay207/bookstore-api.git](https://github.com/Mal
 cd bookstore-api
 npm install
 
-```bash
+
 ##Create a .env file
 
 PORT=5000
@@ -32,7 +32,7 @@ JWT_SECRET=your_jwt_secret
 ##start the server
 npm start
 
-```bash
+
 ###How to test end points
  1.Register a User
 
@@ -93,7 +93,6 @@ Authorization: Bearer <your_token>
 DELETE /api/books/:id
 Authorization: Bearer <your_token>
 
-```bash
 
 ### Api Documnetation 
 
